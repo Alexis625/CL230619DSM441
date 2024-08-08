@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio01</string>
+    <string name="resultado">Resultado: </string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_input">Nota 1</string>
+    <string name="hint_input2">Nota 2</string>
+    <string name="hint_input3">Nota 3</string>
+    <string name="hint_input4">Nota 4</string>
+    <string name="hint_input5">Nota 5</string>
+    <string name="calcular">Calcular</string>
+</resources>
