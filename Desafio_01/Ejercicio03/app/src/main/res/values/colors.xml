@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores personalizados -->
+    <color name="primaryColor">#127369</color> <!-- Color principal -->
+    <color name="primaryDarkColor">#0F4C40</color> <!-- Color oscuro -->
+    <color name="accentColor">#A7D3C2</color> <!-- Color de acento -->
+</resources>
+
