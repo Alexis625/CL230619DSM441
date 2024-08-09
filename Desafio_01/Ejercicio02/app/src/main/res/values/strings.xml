@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculadora Salarial</string>
+    <string name="bienvenida">Bienvenidos a calculadora de descuentos</string>
+    <string name="resultado">tus decuentos de ley son:</string>
+    <string name="isss">Descuento ISSS:</string>
+    <string name="afp">Descuento AFP:</string>
+    <string name="renta">Descuento Renta:</string>
+    <string name="salariototal">Salario Neto:</string>
+    <string name="nombre">Digitar Nombre: </string>
+    <string name="salario">Digitar Salario Base: </string>
+    <string name="enviar">Calcular</string>
+</resources>
