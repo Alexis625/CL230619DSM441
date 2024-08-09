@@ -1,5 +1,6 @@
 package com.example.ejercicio01
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var Nota4: TextView
     private lateinit var Nota5: TextView
     private lateinit var Final: TextView
+    private lateinit var Estados: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         Nota4 = findViewById(R.id.Resultado4)
         Nota5 = findViewById(R.id.Resultado5)
         Final = findViewById(R.id.Final)
+        Estados = findViewById(R.id.Estado)
 
         // Configuración del listener para el botón Calcular
         Calcular.setOnClickListener {
@@ -85,6 +88,7 @@ class MainActivity : AppCompatActivity() {
             val nota5 = num5 * 0.25
             val finalNota = nota1 + nota2 + nota3 + nota4 + nota5
 
+            // Mostrar resultados
             Nombre.text = ": ${name}"
             Nota1.text = "Nota 1: ${String.format("%.2f", nota1)}"
             Nota2.text = "Nota 2: ${String.format("%.2f", nota2)}"
@@ -92,6 +96,15 @@ class MainActivity : AppCompatActivity() {
             Nota4.text = "Nota 4: ${String.format("%.2f", nota4)}"
             Nota5.text = "Nota 5: ${String.format("%.2f", nota5)}"
             Final.text = "Nota Final: ${String.format("%.2f", finalNota)}"
+
+            // Mostrar estado con color
+            if (finalNota >= 6.0) {
+                Estados.text = "Aprobado"
+                Estados.setTextColor(getColor(R.color.colorAprobado)) // Color verde para aprobado
+            } else {
+                Estados.text = "Reprobado"
+                Estados.setTextColor(getColor(R.color.colorReprobado)) // Color rojo para reprobado
+            }
         }
     }
 }

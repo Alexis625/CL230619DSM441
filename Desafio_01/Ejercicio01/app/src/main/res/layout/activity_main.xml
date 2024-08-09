@@ -7,6 +7,23 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Bienvenida"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="79dp"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/puntuacion" />
+
     <EditText
         android:id="@+id/Nombre"
         android:layout_width="match_parent"
@@ -77,13 +94,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
+
         <TextView
             android:id="@+id/NombreCompleto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="@string/hint_nombre"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
+            android:textSize="18sp" />
         <TextView
             android:id="@+id/Nombreresult"
             android:layout_width="wrap_content"
@@ -93,6 +111,10 @@
             android:layout_marginTop="8dp" />
     </LinearLayout>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
     <TextView
         android:id="@+id/Final"
         android:layout_width="wrap_content"
@@ -100,6 +122,20 @@
         android:text="@string/resultado"
         android:textSize="18sp"
         android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
