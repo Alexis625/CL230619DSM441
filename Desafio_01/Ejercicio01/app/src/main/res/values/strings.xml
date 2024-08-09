@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Ejercicio01</string>
-    <string name="resultado">Resultado: </string>
-    <string name="hint_nombre">Nombre</string>
+    <string name="resultado">Nota Final: </string>
+    <string name="hint_nombre">Nombre Completo</string>
     <string name="hint_input">Nota 1</string>
     <string name="hint_input2">Nota 2</string>
     <string name="hint_input3">Nota 3</string>

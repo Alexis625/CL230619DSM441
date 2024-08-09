@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_nombre"
-        android:inputType="numberDecimal"
+        android:inputType="text"
         android:textSize="18sp"
         android:layout_marginBottom="8dp" />
     <EditText
@@ -67,9 +67,10 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:text="@string/calcular"
-            android:textColorLink="#781C1C"
-            app:iconTint="#933B3B" />
+            />
     </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -87,119 +88,85 @@
             android:id="@+id/Nombreresult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=": "
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/Nota5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_input"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-        <TextView
-            android:id="@+id/Resultado5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=": "
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/Nota1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_input2"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-        <TextView
-            android:id="@+id/Resultado1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=": "
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/Nota2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_input3"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-        <TextView
-            android:id="@+id/Resultado2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=": "
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/Nota3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_input4"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-        <TextView
-            android:id="@+id/Resultado3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=": "
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/Nota4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_input5"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp" />
-        <TextView
-            android:id="@+id/Resultado4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=": "
+            android:text=" "
             android:textSize="18sp"
             android:layout_marginTop="8dp" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textViewResult"
+        android:id="@+id/Final"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resultado"
         android:textSize="18sp"
         android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Resultado1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Resultado2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Resultado3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Resultado4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Resultado5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
 </LinearLayout>
