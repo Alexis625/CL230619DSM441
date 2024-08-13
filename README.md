@@ -1,4 +1,16 @@
 <b><h1>Desafío Práctico 01</h1></b>
+Universidad Don Bosco.
+
+Facultad de Ingeniería.
+
+Escuela de Computación.
+
+Ciclo 02- 12 agosto 2024.
+
+Docente: Julio Armando García Sánchez.
+
+Asignatura: Desarrollo de Software para Móviles.
+
 <h3>Descripción</h3>
 En el desafío Práctico se realizo la solución de tres ejercicio, el primero es un app donde se puede promediar las notas de un estudiante. El otro ejercicio es la realización de de una calculadora de los descuentos de leyes como afp, seguro, etc. Y el último ejercicio que es una calculadora básica donde se pueden realiza operaciones como la suma,resta,multiplicación y división
 <h3>Localización</h3>
@@ -8,3 +20,7 @@ El proyecto se encuentra en la carpeta Desafio_01 y dentro de ella podra observa
   <li>Ingrid Azucena Guyedes Reyes - GR230805</li>
   <li>Alexis Benjamin Cisneros Luciano - CL230619</li>
 </ul>
+
+Enlace de video explicativo: 
+https://drive.google.com/drive/folders/1_hKmmS5va0MZYYePGNJGYmHdGZjcuoUt?usp=drive_link
+
