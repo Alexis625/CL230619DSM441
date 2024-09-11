@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DMS_SEM02EJER02</string>
+    <string name="resultado">Resultado: </string>
+    <string name="n1">Digite primer numero</string>
+    <string name="n2">Digite segundo numero</string>
+    <string name="enviar">SUMAR</string>
+</resources>
