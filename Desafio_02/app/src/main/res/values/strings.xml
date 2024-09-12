@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Farmacio_Desafio02</string>
+    <string name="Farmacia">Farmacia San Benjamin</string>
+    <string name="inicio">Inicio Sesion</string>
+    <string name="registro">Registrate</string>
+    <string name="hintcorreo">Ingrese su Correo Electrónico</string>
+    <string name="hintcontra">Ingrese su Contraseña</string>
+</resources>

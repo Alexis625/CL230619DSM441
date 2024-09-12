@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "667650658243",
+    "firebase_url": "https://dsm441farmacia-default-rtdb.firebaseio.com",
+    "project_id": "dsm441farmacia",
+    "storage_bucket": "dsm441farmacia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667650658243:android:0fc9378ee345576daab776",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.farmacio_desafio02"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe5hYd8X_pAiZ6AhCGTyPef5S5DxwYdww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
