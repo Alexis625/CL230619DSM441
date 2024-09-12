@@ -1,72 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="70dp"
-    android:paddingRight="30dp"
-    android:paddingLeft="30dp"
-    android:paddingBottom="30dp"
     android:background="@color/fondo"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="@string/Farmacia"
-        app:autoSizeTextType="uniform"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:paddingLeft="20dp"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="60dp"
-        app:srcCompat="@drawable/icono" />
-
-    <EditText
-        android:id="@+id/etEmail"
+    <!-- Contenedor para centrar verticalmente -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"
-        android:hint="@string/hintcorreo"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp" />
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="30dp">
 
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/etEmail"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:hint="@string/hintcontra"
-        android:inputType="textPassword"
-        android:minHeight="48dp"  />
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Farmacia"
+            android:gravity="center"
+            app:autoSizeTextType="uniform"
+            android:textSize="24sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
 
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/etPassword"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="@string/inicio" />
+        <TextView
+            android:id="@+id/bienvenida"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/Sesion"
+            app:autoSizeTextType="uniform"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="140dp"
+            />
 
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnLogin"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="@string/registro" />
+        <ImageView
+            android:id="@+id/Icono"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/icono"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/hintcorreo"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/hintcontra"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/inicio"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/registro"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
 
 </RelativeLayout>

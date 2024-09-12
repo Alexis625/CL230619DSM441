@@ -5,4 +5,8 @@
     <string name="registro">Registrate</string>
     <string name="hintcorreo">Ingrese su Correo Electrónico</string>
     <string name="hintcontra">Ingrese su Contraseña</string>
+    <string name="Sesion">Inicio sesion</string>
+    <string name="Registro">Registrate</string>
+    <string name="s"></string>
+
 </resources>
