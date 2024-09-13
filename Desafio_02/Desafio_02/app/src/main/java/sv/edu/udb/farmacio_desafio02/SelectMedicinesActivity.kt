@@ -43,16 +43,16 @@ class SelectMedicinesActivity : AppCompatActivity() {
 
     private fun loadMedicines() {
         medicines.addAll(listOf(
-            Medicine("Paracetamol", 3.5),
-            Medicine("Ibuprofeno", 5.0),
-            Medicine("Amoxicilina", 7.5),
-            Medicine("Cetirizina", 4.0),
-            Medicine("Aspirina", 2.5),
-            Medicine("Metformina", 6.0),
-            Medicine("Loratadina", 4.5),
-            Medicine("Omeprazol", 8.0),
-            Medicine("Azitromicina", 10.0),
-            Medicine("Simvastatina", 9.0)
+            Medicine("Paracetamol","dolor panza", 3.5),
+            Medicine("Ibuprofeno", "dolor panza",5.0),
+            Medicine("Amoxicilina", "dolor panza",7.5),
+            Medicine("Cetirizina", "dolor panza",4.0),
+            Medicine("Aspirina", "dolor panza",2.5),
+            Medicine("Metformina", "dolor panza",6.0),
+            Medicine("Loratadina", "dolor panza",4.5),
+            Medicine("Omeprazol", "dolor panza",8.0),
+            Medicine("Azitromicina", "dolor panza",10.0),
+            Medicine("Simvastatina", "dolor panza",9.0)
         ))
     }
 }

@@ -26,11 +26,13 @@ class MedicinesAdapter(
 
     inner class MedicineViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val tvMedicineName: TextView = itemView.findViewById(R.id.tvMedicineName)
+        private val tvMedicineDescription: TextView = itemView.findViewById(R.id.tvMedicineDescription) // Nueva vista para la descripción
         private val tvMedicinePrice: TextView = itemView.findViewById(R.id.tvMedicinePrice)
         private val btnSelect: Button = itemView.findViewById(R.id.btnSelect)
 
         fun bind(medicine: Medicine) {
             tvMedicineName.text = medicine.name
+            tvMedicineDescription.text = medicine.description // Mostrar la descripción
             tvMedicinePrice.text = "$${medicine.price}"
 
             btnSelect.setOnClickListener {
