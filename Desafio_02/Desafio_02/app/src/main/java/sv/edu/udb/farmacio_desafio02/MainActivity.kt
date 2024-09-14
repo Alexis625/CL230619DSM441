@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                     val user = auth.currentUser
                     Log.d(TAG, "signInWithEmail:success, User: $user")
                     // Aquí puedes redirigir a la siguiente actividad o realizar otras operaciones
-                    val intent = Intent(this, SelectMedicinesActivity::class.java)
+                    val intent = Intent(this, menu::class.java)
                     startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user.
