@@ -3,18 +3,20 @@
     <string name="Farmacia">Farmacia San Benjamin</string>
     <string name="inicio">Inicio Sesion</string>
     <string name="registro">Registrate</string>
-    <string name="hintcorreo">Ingrese su Correo Electrónico</string>
-    <string name="hintcontra">Ingrese su Contraseña</string>
+    <string name="hintcorreo">Ingrese su correo electrónico:</string>
+    <string name="hintcontra">Ingrese su contraseña:</string>
     <string name="Sesion">Inicio sesion</string>
     <string name="Registro">Registrate</string>
-    <string name="Carrito">Carrito</string>
-    <string name="Historial">Historial</string>
+    <string name="Carrito"> Ver carrito</string>
+    <string name="Historial">Ver historial</string>
     <string name="Pagar">Pagar</string>
     <string name="Volver">Volver</string>
     <string name="Total">Total a pagar: $0.00</string>
     <string name="Producto">Nombre del producto</string>
     <string name="precio">$0.00</string>
     <string name="Agregar">Agregar</string>
-
+    <string name="FechaCompra">Fecha de la compra</string>
+    <string name="productocomprado">Producto Comprado</string>
+    <string name="HistorialCompras">Historial de Compras</string>
 
 </resources>

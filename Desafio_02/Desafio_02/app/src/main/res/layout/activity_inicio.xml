@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".Inicio">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -17,7 +18,7 @@
 
     <Button
         android:id="@+id/checkoutButton"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/Pagar"
         android:textSize="18sp"
@@ -28,7 +29,7 @@
 
     <Button
         android:id="@+id/backButton"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/Volver"
         android:textSize="18sp"

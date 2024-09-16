@@ -23,12 +23,16 @@
             android:id="@+id/Titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Farmacia"
             android:gravity="center"
-            app:autoSizeTextType="uniform"
-            android:textSize="24sp"
             android:paddingStart="20dp"
-            android:paddingEnd="20dp"/>
+            android:paddingEnd="20dp"
+            android:text="@string/Farmacia"
+            android:textSize="24sp"
+            app:autoSizeTextType="uniform" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
 
         <TextView
             android:id="@+id/bienvenida"
@@ -38,8 +42,7 @@
             app:autoSizeTextType="uniform"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
-            android:paddingLeft="140dp"
-            />
+            android:paddingLeft="140dp"/>
 
         <ImageView
             android:id="@+id/Icono"
@@ -73,23 +76,35 @@
 
         <Button
             android:id="@+id/btnLogin"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/inicio"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"/>
+        <!-- Etiqueta '¿No tienes cuenta?' -->
+        <TextView
+            android:id="@+id/noAccountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes una cuenta?"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/btnRegister"
+            android:layout_centerHorizontal="true"/>
 
         <Button
             android:id="@+id/btnRegister"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/registro"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"/>
+
     </LinearLayout>
 
 </RelativeLayout>
