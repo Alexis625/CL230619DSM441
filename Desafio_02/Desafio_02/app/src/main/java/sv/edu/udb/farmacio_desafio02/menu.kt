@@ -13,6 +13,7 @@ class menu : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var productAdapter: ProductoAdaptador
     private lateinit var viewCartButton: Button
+    private lateinit var historialButton: Button
     private val products = listOf(
         Producto("1", "Paracetamol", 1.50),
         Producto("2", "Ibuprofeno", 3.00),
@@ -33,6 +34,7 @@ class menu : AppCompatActivity() {
 
         recyclerView = findViewById(R.id.recyclerView)
         viewCartButton = findViewById(R.id.viewCartButton)
+        historialButton = findViewById(R.id.historial) // Asegúrate de inicializar el botón
 
         recyclerView.layoutManager = LinearLayoutManager(this)
 
@@ -43,6 +45,11 @@ class menu : AppCompatActivity() {
 
         viewCartButton.setOnClickListener {
             goToCart()
+        }
+
+        historialButton.setOnClickListener {
+            val intent = Intent(this, Historial::class.java)
+            startActivity(intent)
         }
     }
 

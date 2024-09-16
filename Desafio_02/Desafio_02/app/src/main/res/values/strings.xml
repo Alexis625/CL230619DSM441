@@ -7,10 +7,14 @@
     <string name="hintcontra">Ingrese su Contraseña</string>
     <string name="Sesion">Inicio sesion</string>
     <string name="Registro">Registrate</string>
-    <string name="s"></string>
-    <string name="title_activity_cart">activity_cart</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_cart_item">cart_item</string>
+    <string name="Carrito">Carrito</string>
+    <string name="Historial">Historial</string>
+    <string name="Pagar">Pagar</string>
+    <string name="Volver">Volver</string>
+    <string name="Total">Total a pagar: $0.00</string>
+    <string name="Producto">Nombre del producto</string>
+    <string name="precio">$0.00</string>
+    <string name="Agregar">Agregar</string>
+
 
 </resources>
