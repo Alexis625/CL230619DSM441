@@ -15,16 +15,16 @@ class menu : AppCompatActivity() {
     private lateinit var viewCartButton: Button
     private lateinit var historialButton: Button
     private val products = listOf(
-        Producto("1", "Paracetamol", 1.50),
-        Producto("2", "Ibuprofeno", 3.00),
-        Producto("3", "Aspirina", 2.50),
-        Producto("4", "Jarabe para la tos", 4.00),
-        Producto("5", "Vitamina C", 3.50),
-        Producto("6", "Jarabe para la Tos", 6.00),
-        Producto("7", "Omeprazol", 8.00),
-        Producto("8", "Alcohol Gel", 3.00),
-        Producto("9", "Gotas para los ojos", 7.00),
-        Producto("10", "Anticonceptivos", 15.00)
+        Producto("1", "Ultrafoskrol solucion oral", 6.88),
+        Producto("2", "Vita C+Zinc X 12 tabletas masticables", 2.63),
+        Producto("3", "Neuro Campolon Energy", 13.25),
+        Producto("4", "Griin Skin Hair & Nails", 13.95),
+        Producto("5", "Aceite bebe noches tranquilas Jaloma", 2.15),
+        Producto("6", "Agua Oxigenada - Oxigena Solucion Topica 120ml", 2.00),
+        Producto("7", "Algodon 1 Libra MIGASA", 6.00),
+        Producto("8", "Alcohol Etilico 70° Gamma 240ml", 4.25),
+        Producto("9", "Acetaminofen 500mg Ecomed X 10 Tabletas", 0.60),
+        Producto("10", "Ambroxol 15mg/5ml Glicitos jarabe", 5.32)
     )
     private val selectedProducts = arrayListOf<Producto>()
 

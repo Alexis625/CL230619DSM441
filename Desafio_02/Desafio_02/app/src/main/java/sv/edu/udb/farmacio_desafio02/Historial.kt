@@ -1,6 +1,8 @@
 package sv.edu.udb.farmacio_desafio02
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.*
@@ -36,9 +38,11 @@ class Historial : AppCompatActivity() {
         database.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 comprasList.clear()
+                val backButton: Button = findViewById(R.id.backButton)
                 for (pedidoSnapshot in snapshot.children) {
                     val productosList = mutableListOf<Producto>()
                     var totalCompra = 0.0
+
 
                     // Obtener productos
                     val productosSnapshot = pedidoSnapshot.child("productos")
@@ -52,10 +56,17 @@ class Historial : AppCompatActivity() {
                     totalCompra = pedidoSnapshot.child("total").getValue(Double::class.java) ?: 0.0
 
                     // Crear objeto Compra y añadirlo a la lista
-                    val compra = Compra(productosList, totalCompra, "Fecha Desconocida")
+                    val compra = Compra(productosList, totalCompra, "16/09/2024")
                     comprasList.add(compra)
                 }
                 historialAdapter.notifyDataSetChanged()
+
+                backButton.setOnClickListener {
+                    val intent = Intent(this@Historial, menu::class.java)
+                    startActivity(intent)
+                    finish() // Cerrar la actividad actual
+                }
+
             }
 
             override fun onCancelled(error: DatabaseError) {
