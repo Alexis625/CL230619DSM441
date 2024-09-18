@@ -20,7 +20,7 @@ En el desafío Práctico se realizo la solución de la clave B, el cual es un ap
   </tr>
   <tr>
     <td>Icono:</td>
-    <td><img href="Desafio_02/Desafio_02/app/src/main/res/drawable/icono.img"></img></td>
+    <td><img src="Desafio_02/Desafio_02/app/src/main/res/drawable/icono.img"></img></td>
   </tr>
   
 </table>
