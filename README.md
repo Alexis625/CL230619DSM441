@@ -14,8 +14,11 @@ Asignatura: Desarrollo de Software para Móviles.
 <h3>Descripción</h3>
 En el desafío Práctico se realizo la solución de la clave B, el cual es un app de farmacia donde se puede comprar diversos medicamentos. 
 <table>
-  <td>Nombre:</td>
-  <th></th>
+  <tr>
+    <td>Nombre personalizado:</td>
+    <td>Farmacia San Benjamín</td>
+  </tr>
+  
 </table>
 <h3>Localización</h3>
 El proyecto se encuentra en la carpeta Desafio_02 y dentro de ella podra observa el contenido del ejercicio.
