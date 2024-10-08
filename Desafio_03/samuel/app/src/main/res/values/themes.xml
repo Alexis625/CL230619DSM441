@@ -1,8 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Desafio3" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Personaliza el color de la barra de estado a negro -->
+        <item name="android:statusBarColor">#000000</item>
+
+        <!-- Si también quieres que otros elementos sean negros -->
+        <item name="colorPrimary">#000000</item>
     </style>
 
     <style name="Theme.Desafio3" parent="Base.Theme.Desafio3" />

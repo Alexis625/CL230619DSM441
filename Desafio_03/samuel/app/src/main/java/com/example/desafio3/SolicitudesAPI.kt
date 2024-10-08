@@ -8,15 +8,15 @@ import retrofit2.http.PUT
 import retrofit2.http.Path
 
 interface SolicitudesAPI {
-    @GET("recursos")
+    @GET("resursos_aprendizajes")
     suspend fun getRecursos(): List<Model>
 
-    @POST("recursos")
+    @POST("resursos_aprendizajes")
     suspend fun createRecurso(@Body recurso: Model): Model
 
-    @PUT("recursos/{id}")
+    @PUT("resursos_aprendizajes/{id}")
     suspend fun updateRecurso(@Path("id") id: Long, @Body recurso: Model)
 
-    @DELETE("recursos/{id}")
+    @DELETE("resursos_aprendizajes/{id}")
     suspend fun deleteRecurso(@Path("id") id: Long)
 }

@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
-    private val baseUrl = "https://6700c2924da5bd237554bc2f.mockapi.io/"
+    private val baseUrl = "https://66fd72176993693089553a29.mockapi.io/"
     private lateinit var recursosListView: RecyclerView
     private lateinit var recursosAdapter: Adaptador
     private lateinit var loadingIndicator: ProgressBar
