@@ -30,7 +30,7 @@
         android:id="@+id/btnadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Añadir Recurso"
+        android:text="@string/Añadir"
         android:textColor="@color/white"
     android:backgroundTint="@color/black"
     android:textSize="18sp"

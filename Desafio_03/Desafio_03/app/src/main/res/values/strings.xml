@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Desafio3</string>
+    <string name="Añadir">Añadir Recurso</string>
+    <string name="Modificar">Modificar</string>
+    <string name="Detalles">Detalles</string>
+    <string name="Borrar">Borrar</string>
+    <string name="hintTitulo">Titulo:</string>
+    <string name="hintDescripcion">Descripción:</string>
+    <string name="hintTipo">Tipo:</string>
+    <string name="hintEnlace">Enlace:</string>
+    <string name="hintImagen">Imagen:</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnCancelar">Cancelar</string>
+</resources>
