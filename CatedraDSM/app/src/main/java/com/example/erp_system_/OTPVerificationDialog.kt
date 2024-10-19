@@ -37,7 +37,7 @@ class OTPVerificationDialog : DialogFragment() {
 
         buttonVerify.setOnClickListener {
             val enteredOTP = editTextOTP.text.toString()
-            val correctOTP = "DSMUDB" // Replace with actual OTP sent to user's email or phone
+            val correctOTP = "441" // Replace with actual OTP sent to user's email or phone
             if (enteredOTP == correctOTP) {
                 // Show progress bar
                 progressBar.visibility = View.VISIBLE

@@ -83,7 +83,7 @@ class BeforeMainActivity : AppCompatActivity() {
         // Set click listener for the verify button
         verifyButton.setOnClickListener {
             val enteredOTP = otpEditText.text.toString()
-            val correctOTP = "DSMUDB" // Predefined correct OTP
+            val correctOTP = "441" // Predefined correct OTP
 
             if (enteredOTP == correctOTP) {
                 // If the entered OTP is correct, dismiss the dialog and proceed to TeacherActivity
