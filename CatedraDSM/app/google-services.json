@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "510812901394",
+    "firebase_url": "https://dsmcatedra-default-rtdb.firebaseio.com",
+    "project_id": "dsmcatedra",
+    "storage_bucket": "dsmcatedra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510812901394:android:adb2377aa8c3963a0588cb",
+        "android_client_info": {
+          "package_name": "com.example.erp_system_"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPb_0TqIofzXiIKVmr1IDpBsYlO5v6CH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
